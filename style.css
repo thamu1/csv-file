@@ -1,0 +1,57 @@
+.panel-title{
+    color:white;
+    font-family:'Ephesis',cursive;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+}
+.body1{
+    background-color:black;
+}
+.heading{
+    color:rgb(231, 119, 207);
+    font-family:'Akronim',cursive;
+}
+#import{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    border-color:chartreuse;
+    font-family: fantasy;
+}
+#import:hover{
+    background-color: cyan;
+    color:rgb(1, 1, 5);
+}
+.form-group{
+    margin-top:80px;
+    color:rgb(242, 240, 243);
+    font-family:'Akronim',cursive ;
+    font-size: 18px;
+    
+}
+.form-horizontal{
+    margin-right: 100px;
+    border:2px solid green;
+    width: 50%;
+    margin-left:26%;
+}
+.text1{
+    color:white;
+}
+.text2{
+    color:lavender;
+    font-family:'Akronim',cursive ;
+    font-size:20px;
+
+}
+#file1:hover{
+    color:lawngreen;
+    background-color: darkslategrey;
+    font-family:'Akronim',cursive ;
+}
+#file:hover{
+    color:indigo;
+    font-family:'Akronim',cursive ;
+
+}
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>CSV FILE UPLOAD USING PHP</title>  
+  
+  <link rel="stylesheet" href="style.css" />
+ 
+ </head>
+ <body align="center" class="body1">
+  
+  <br />
+  <br />
+  <div class="container">
+   <h1 align="center" class="heading">Grootan Coding Assignment</h1>
+   <br />
+   <div class="panel panel-default">
+    <div class="panel-heading">
+     <h3 class="panel-title">Import Large CSV File Data into DataBase Table</h3>
+    </div>
+      <div class="panel-body">
+       <span id="message"></span>
+       <form  id="sample_form" method="POST" enctype="multipart/form-data" class="form-horizontal" action="2.php">
+        <div class="form-group"><p class="text1">Select CSV File :</p>         
+         <input type="file" name="file" id="file" style="margin-left:40%;" accept=".csv" required/><br><br>
+        </div>
+         <div>
+         <p class="text2">Table Name:</p>        
+         <input type="text" name="table" id="file1" required />
+        </div>
+        <div class="form-group" align="center">
+         <input type="hidden" name="hidden_field" value="1" />
+         <input type="submit" name="import" id="import" class="btn btn-info" value="Import" />
+        </div>
+       </form>
+      </div>
+     </div>
+  </div>
+ </body>
+</html>
